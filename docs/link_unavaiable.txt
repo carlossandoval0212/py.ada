@@ -1,0 +1,16 @@
+import os
+import sys
+
+#Configuracion básica
+proyect = 'AlgoritmosADA'
+copyright = '2024, Sebastian Penagos, Adriana Chocue, Carlos Sandoval'
+author = 'Sebastian Penagos, Adriana Chocue, Carlos Sandoval'
+
+#Configuración de Sphinx
+extensions = ['sphinx.ext.autodoc']
+templates_path = ['_templates']
+exclude_patterns = ['_build','Thumbs.db','.DS_Store']
+
+#Configuración de la documentación
+source_suffix = '.rst'
+master_doc = 'index'
